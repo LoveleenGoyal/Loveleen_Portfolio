@@ -661,7 +661,7 @@ section {
 }
 
 .contact-info i {
-    width: 4.5rem;
+    margin-right: 1rem;
     font-size: 2.5rem;
     color: #0563bb;
 }
