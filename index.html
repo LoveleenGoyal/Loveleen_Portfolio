@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loveleen Goyal Portfolio</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <div id="main-content" class="hidden">
+
+        <!--Navigation bar-->
+        <header>
+            <nav class="navlist">
+                <label class="logo"><img src="images/logo1.png" alt="logo image"></label>
+                <ul id="nav-list">
+                    <li><a class="active" href="#home"><i class="ri-home-7-fill hidden"></i> Home</a></li>
+                    <li><a href="#about"><i class="ri-user-3-fill hidden"></i> About</a></li>
+                    <li><a href="#services"><i class="ri-todo-line hidden"></i> Services</a></li>
+                    <li><a href="#portfolio"><i class="ri-briefcase-fill hidden"></i> Portfolio</a></li>
+                    <li><a href="#contact"><i class="ri-chat-smile-3-fill hidden"></i> Contact</a></li>
+                </ul>
+                <div class="nav_icons">
+                    <div id="theme-btn"><i class="ri-moon-line"></i></div>
+                    <div id="menu-btn"><i class="ri-menu-line"></i></div>
+                </div>
+            </nav>
+
+        </header>
+
+
+        <main>
+            <!--Home section-->
+            <section class="home" id="home">
+                <div class="home-container">
+                    <h3>Hello....</h3>
+                    <h1>I'm <span>Loveleen Goyal</span></h1>
+                    <h3>A <span class="typing">Web Developer</span></h3>
+
+                    <div class="social-media">
+                        <a href="https://github.com/Loveleen26"><i class="ri-github-fill"></i></a>
+                        <a href="https://www.instagram.com/itslovuu/"><i class="ri-instagram-line"></i></a>
+                        <a href="https://www.linkedin.com/in/loveleen-goyal-5a5113234/"><i
+                                class="ri-linkedin-fill"></i></a>
+                    </div>
+                    <a href="loveleen_resume.pdf" target="_blank" class="btn">Download CV <i
+                            class="ri-download-2-line"></i></a>
+                </div>
+                <div class="home-image">
+                    <img src="images/my_img2.png" alt="my_image">
+                </div>
+            </section>
+
+            <!--About Section-->
+            <section id="about" class="about">
+                <div class="about-content">
+                    <h2>ABOUT <span>ME</span></h2>
+                    <p>I'm Loveleen, a third-year student pursuing Computer Science Engineering at Chitkara University.
+                        I'm
+                        passionate about web design and fascinated by the inner workings of computers and data
+                        collection.
+                    </p>
+                    <article>
+                        <p>My journey into the world of web development started a while back, and
+                            since then, I've been drawn to the art of crafting user-friendly and visually appealing
+                            websites.
+                        </p>
+                        <br>
+                        <p class="hidden-para">As I progress through my studies, I've become proficient in HTML, CSS,
+                            and
+                            JavaScript, and I'm eager to learn more. I'm particularly interested in frontend design,
+                            user
+                            experience, and interactive
+                            web elements.
+                        </p>
+                        <p class="hidden-para"><br>I'm excited to turn my passion into a meaningful career and
+                            contribute to
+                            the
+                            digital landscape. If you'd like to connect or collaborate, feel free to reach out to me.
+                            Let's
+                            learn and grow together!
+                        </p>
+                        <button id="read-more-btn" class="btn" onclick="showHiddenPara()">Read More</button>
+                    </article>
+                    <div id="personal-info">
+                        <div class="info-item"><i class="ri-arrow-right-s-line"></i>
+                            <p>Profile : <span>Front-end Developer</span></p>
+                        </div>
+                        <div class="info-item"><i class="ri-arrow-right-s-line"></i>
+                            <p>Email : <span>loveleengoyal26@gmail.com</span></p>
+                        </div>
+                        <div class="info-item"><i class="ri-arrow-right-s-line"></i>
+                            <p>Phone : <span>+91 70092 32002</span></p>
+                        </div>
+                        <div class="info-item"><i class="ri-arrow-right-s-line"></i>
+                            <p>Freelance : <span>Available</span></p>
+                        </div>
+                    </div>
+                    <div class="skill-info">
+                        <h2>SKILLS</h2>
+                        <div class="skill-container">
+                            <div class="skills-list">
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">HTML</h3>
+                                        <span class="skills-number">90%</span>
+                                    </div>
+                                    <div class="skills-bar">
+                                        <span class="skills-percentage skills-html active"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">CSS</h3>
+                                        <span class="skills-number">80%</span>
+                                    </div>
+                                    <div class="skills-bar">
+                                        <span class="skills-percentage skills-css active"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">JavaScript</h3>
+                                        <span class="skills-number">60%</span>
+                                    </div>
+                                    <div class="skills-bar">
+                                        <span class="skills-percentage skills-js active"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-list">
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">C++</h3>
+                                        <span class="skills-number">70%</span>
+                                    </div>
+                                    <div class="skills-bar">
+                                        <span class="skills-percentage skills-cpp active"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">Java</h3>
+                                        <span class="skills-number">85%</span>
+                                    </div>
+                                    <div class="skills-bar">
+                                        <span class="skills-percentage skills-java active"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">C</h3>
+                                        <span class="skills-number">80%</span>
+                                    </div>
+                                    <div class="skills-bar">
+                                        <span class="skills-percentage skills-c active"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="qualifi-info">
+                    <h2>QUALIFICATIONS</h2>
+                    </div> -->
+                    <div class="certifi-info">
+                        <h2>CERTIFICATIONS</h2>
+                        <div class="gallery">
+                            <div class="arrow-icon" id="arrow-icon1"><i class="ri-arrow-left-double-line"></i></div>
+                            <div id="gallery-container">
+                                <div class="left-images">
+                                    <span>
+                                        <a href="certificate images/python.jpeg" target="_blank">
+                                            <img src="certificate images/python.jpeg" alt="image1">
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="certificate images/graphic design.jpeg" target="_blank">
+                                            <img src="certificate images/graphic design.jpeg" alt="">
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="certificate images/webDev.jpeg" target="_blank">
+                                            <img src="certificate images/webDev.jpeg" alt="image3">
+                                        </a>
+                                    </span>
+                                </div>
+                                <div class="right-images hidden" id="hidden-images">
+                                    <span>
+                                        <a href="certificate images/google analytics.jpeg" target="_blank">
+                                            <img src="certificate images/google analytics.jpeg" alt="">
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="certificate images/oops c++.jpeg" target="_blank">
+                                            <img src="certificate images/oops c++.jpeg" alt="image2">
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="certificate images/ML python.jpeg" target="_blank">
+                                            <img src="certificate images/ML python.jpeg" alt="">
+                                        </a>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="arrow-icon" id="arrow-icon2"><i class="ri-arrow-right-double-line"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Services Section-->
+            <section class="services" id="services">
+                <div class="service-content">
+                    <h2>SERVICES</h2>
+                    <p>What i offer</p>
+                    <div class="service-box">
+                        <i class="ri-reactjs-line"></i>
+                        <h3>Web Development</h3>
+                        <a href="#" class="more">View More <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="service-box">
+                        <i class="ri-palette-fill"></i>
+                        <h3>Graphic Design</h3>
+                        <a href="#" class="more">View More <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="service-box">
+                        <i class="ri-pencil-line"></i>
+                        <h3>UI/UX Design</h3>
+                        <a href="#" class="more">View More <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!-- Add popup structures for each service -->
+                    <div class="popup" id="web-dev-popup">
+                        <div class="popup-content">
+                            <h3>Web Development</h3><br><br>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the first point about web development.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the second point about web development.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the third point about web development.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the fourth point about web development.
+                            </p>
+                            <button class="close-popup">Close</button>
+                        </div>
+                    </div>
+
+                    <div class="popup" id="graphic-design-popup">
+                        <div class="popup-content">
+                            <h3>Graphic Design</h3><br><br>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the first point about graphic design.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the second point about graphic design.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the third point about graphic design.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the fourth point about graphic design.
+                            </p>
+                            <button class="close-popup">Close</button>
+                        </div>
+                    </div>
+
+                    <div class="popup" id="ui-ux-design-popup">
+                        <div class="popup-content">
+                            <h3>UI/UX Design</h3><br><br>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the first point about UI/UX design.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the second point about UI/UX design.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the third point about UI/UX design.
+                            </p>
+                            <p><i class="ri-checkbox-circle-line"></i> This is the fourth point about UI/UX design.
+                            </p>
+                            <button class="close-popup">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--Portfolio Section-->
+            <section class="portfolio" id="portfolio">
+                <div class="portfolio-content">
+                    <h2>PORTFOLIO</h2>
+                    <p>My Work</p>
+                    <div class="portfolio-filter">
+                        <ul>
+                            <li class="list portfolio-filter-active" data-filter="all">All</li>
+                            <li class="list" data-filter="app">Application</li>
+                            <li class="list" data-filter="web">Website Designs</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-project">
+                        
+                        <div class="portfolio-box app"><img src="images/weather_app.jpg" alt="">
+                            <div>
+                                <h4>Weather Application</h4><br>
+                                <p>Experience real-time weather updates with this application. Stay informed, rain or shine!</p>
+                                <a href="../../WEATHER-APPLICATION-master/index.html" target="_blank" class="btn"><i class="ri-links-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-box web"><img src="images/port3.jpeg" alt="">
+                            <div>
+                                <h4>Ecommerce Website</h4><br>
+                                <p>Discover seamless online shopping with this website. Browse, choose, and shop with convenience and style.</p>
+                                <a href="../e-commerce/index.html" target="_blank" class="btn"><i class="ri-links-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Contact Section-->
+            <section class="contact" id="contact">
+                <div class="contact-container">
+                    <h2>CONTACT <span>ME</span></h2>
+                    <p>Get in touch</p>
+                    <div class="contact-left">
+                        <div class="contact-info"><i class="ri-map-pin-line"></i>
+                            <div>
+                                <h3>Location:</h3>
+                                <p>Chitkara University, Rajpura - 140401</p>
+                            </div>
+                        </div>
+                        <div class="contact-info"><i class="ri-mail-send-line"></i>
+                            <div>
+                                <h3>Email:</h3>
+                                <p>loveleengoyal26@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info"><i class="ri-phone-line"></i>
+                            <div>
+                                <h3>Call Me:</h3>
+                                <p>+91 70092 32002</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action="" class="contact-form" id="contact-form">
+                            <div class="contact-inputs">
+                                <div class="contact-content">
+                                    <input type="text" class="contact-input" placeholder="Name" required>
+                                </div>
+                                <div class="contact-content">
+                                    <input type="email" class="contact-input" placeholder="Email" required>
+                                </div>
+                            </div>
+
+                            <div class="contact-content">
+                                <input type="text" class="contact-input" placeholder="Subject" required>
+                            </div>
+                            <div class="contact-content">
+                                <textarea name="" id="" cols="0" rows="7" placeholder="Message" required></textarea>
+                            </div>
+                            <div id="button">
+                                <button class="btn" id="send-msg-btn">
+                                    Send Message
+                                    <i class="ri-send-plane-fill"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="popup-message" class="popup">
+                        <div class="popup-content">
+                            <p>Your message has been sent successfully!</p>
+                            <button id="close-popup">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer id="footer">
+            <div class="footer-container">
+                <h3>Loveleen Goyal</h3>
+                <div class="social-media">
+                    <a href="https://github.com/Loveleen26?tab=repositories"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.instagram.com/itslovuu/"><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.linkedin.com/in/loveleen-goyal-5a5113234/"><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; Copyright
+                    <strong>Portfolio</strong>
+                    . All Rights Reserved
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<script src="portfolio.js"></script>
+
+</html>
